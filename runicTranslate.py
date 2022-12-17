@@ -1,6 +1,6 @@
 #create the strings used for maketrans
 alphabet = "abcdefghijklmnopqrstuvwxyz.!?"
-runes="ᚨᛒᛍᛞᛖᚬᚵᚺᛁᛃᚴᛚᛗᚾᛟᛕᛩᚱᛋᛏᛝᛡᚧᛪᛨᛄ᛫᛭᛭"
+runes="αβγδεφγͱινκλμνξφρρστυηηζ͵͵͵"
 #get what the user intends to translate
 userInput= input("What is it to translate?: ")
 #make the translation table

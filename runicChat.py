@@ -3,11 +3,11 @@ import time
 
 #create the strings used for maketrans
 alphabet = "abcdefghijklmnopqrstuvwxyz.!?"
-runes="ᚨᛒᛍᛞᛖᚬᚵᚺᛁᛃᚴᛚᛗᚾᛟᛕᛩᚱᛋᛏᛝᛡᚧᛪᛨᛄ᛫᛭᛭"
+runes="αβγδεφγͱινκλμνξφρρστυηηζ͵͵͵"
 number="0123456789"
 #settings for the OSC Client
 
-client = SimpleUDPClient("127.0.0.1", 6000) #create the OSC client
+client = SimpleUDPClient("127.0.0.1", 9000) #create the OSC client
 run=True
 
 #This was orginally going to be apart of a OSC Library which is why client is an input
