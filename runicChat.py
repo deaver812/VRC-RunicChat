@@ -14,7 +14,11 @@ client = SimpleUDPClient("127.0.0.1", 6000) #create the OSC client
 def sendChatbox(client, text, bypass):
     client.send_message("/chatbox/input", [text, bypass])
 
-while(True): #the running loop
+if __name__ == "__main__":
+    run=True
+else:
+    run=False
+while(run): #the running loop
     print("----------------------------------")
     print("type (ext) to exit the program")
     userInput= input("please enter what you wish to say: ")
